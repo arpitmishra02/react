@@ -1,7 +1,8 @@
 import './App.css';
 // import MyFunctionalComponent from './Greet';
 import {Greet} from './Greet'; // within currly braces
-import Hello from './Hello';
+import Message from './Message';
+// import Hello from './Hello';
 import Welcome from './Welcome';
 
 
@@ -12,7 +13,7 @@ function App() {
       <Greet></Greet>
       {/* <MyFunctionalComponent></MyFunctionalComponent> */}
       <Welcome></Welcome>
-      <Hello></Hello>
+      {/* <Hello></Hello>
       <Greet name="Bruce" heroName="Batman">
         <p>The Dark Knight</p>
       </Greet>
@@ -24,7 +25,8 @@ function App() {
       </Welcome>
       <Welcome name="Clark" heroName="Superman">
        <button>Heat Vision On</button>
-      </Welcome>
+      </Welcome> */}
+      <Message></Message>
     </div>
   );
 }
