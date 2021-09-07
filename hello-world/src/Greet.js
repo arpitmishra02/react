@@ -12,10 +12,18 @@ import React from 'react'
 
 export const Greet = (props) => {
     console.log(props);
+    // return (
+    //     <>
+    //     <h1>Hello {props.name} a.k.a {props.heroName} from functional component</h1>
+    //     {props.children}
+    //     </>
+    // )
+
+    const {name, heroName, children} = props
     return (
         <>
-        <h1>Hello {props.name} a.k.a {props.heroName} from functional component</h1>
-        {props.children}
+        <h1>Hello {name} a.k.a {heroName} from functional component</h1>
+        {children}
         </>
     )
 } 

@@ -1,4 +1,5 @@
 import './App.css';
+import Counter from './Counter';
 // import MyFunctionalComponent from './Greet';
 import {Greet} from './Greet'; // within currly braces
 import Message from './Message';
@@ -27,6 +28,10 @@ function App() {
        <button>Heat Vision On</button>
       </Welcome> */}
       <Message></Message>
+      <Counter></Counter>
+      <Greet name="Diana" heroName="WonderWoman">
+       <button>Go to Temiskyra</button>
+      </Greet>
     </div>
   );
 }
