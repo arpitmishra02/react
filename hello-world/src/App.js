@@ -7,6 +7,7 @@ import FunctionClick from './FunctionClick';
 import {Greet} from './Greet'; // within currly braces
 import Message from './Message';
 import ParentComponent from './ParentComponent';
+import UserGreeting from './UserGreeting';
 // import Hello from './Hello';
 import Welcome from './Welcome';
 
@@ -41,7 +42,9 @@ function App() {
       <ClassClick></ClassClick>
       <EventBind></EventBind> */}
 
-      <ParentComponent></ParentComponent>
+      {/* <ParentComponent></ParentComponent> */}
+
+      <UserGreeting></UserGreeting>
     </div>
   );
 }
