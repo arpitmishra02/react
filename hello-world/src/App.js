@@ -6,6 +6,7 @@ import FunctionClick from './FunctionClick';
 // import MyFunctionalComponent from './Greet';
 import {Greet} from './Greet'; // within currly braces
 import Message from './Message';
+import ParentComponent from './ParentComponent';
 // import Hello from './Hello';
 import Welcome from './Welcome';
 
@@ -36,9 +37,11 @@ function App() {
        <button>Go to Temiskyra</button>
       </Greet> */}
 
-      <FunctionClick></FunctionClick>
+      {/* <FunctionClick></FunctionClick>
       <ClassClick></ClassClick>
-      <EventBind></EventBind>
+      <EventBind></EventBind> */}
+
+      <ParentComponent></ParentComponent>
     </div>
   );
 }
