@@ -1,5 +1,8 @@
 import './App.css';
+import ClassClick from './ClassClick';
 import Counter from './Counter';
+import EventBind from './EventBind';
+import FunctionClick from './FunctionClick';
 // import MyFunctionalComponent from './Greet';
 import {Greet} from './Greet'; // within currly braces
 import Message from './Message';
@@ -27,11 +30,15 @@ function App() {
       <Welcome name="Clark" heroName="Superman">
        <button>Heat Vision On</button>
       </Welcome> */}
-      <Message></Message>
+      {/* <Message></Message>
       <Counter></Counter>
       <Greet name="Diana" heroName="WonderWoman">
        <button>Go to Temiskyra</button>
-      </Greet>
+      </Greet> */}
+
+      <FunctionClick></FunctionClick>
+      <ClassClick></ClassClick>
+      <EventBind></EventBind>
     </div>
   );
 }
