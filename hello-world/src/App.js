@@ -6,6 +6,7 @@ import FunctionClick from './FunctionClick';
 // import MyFunctionalComponent from './Greet';
 import {Greet} from './Greet'; // within currly braces
 import Message from './Message';
+import NameList from './NameList';
 import ParentComponent from './ParentComponent';
 import UserGreeting from './UserGreeting';
 // import Hello from './Hello';
@@ -44,7 +45,8 @@ function App() {
 
       {/* <ParentComponent></ParentComponent> */}
 
-      <UserGreeting></UserGreeting>
+      {/* <UserGreeting></UserGreeting> */}
+      <NameList></NameList>
     </div>
   );
 }
